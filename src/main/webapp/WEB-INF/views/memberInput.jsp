@@ -14,7 +14,8 @@
 	<h2>회원정보 입력</h2>
 	</hr>
 	
-	<form:form action="addMember" memthod="post">
+	<!-- <form:form action="addMember" memthod="post"></form:form> -->
+	<form:form action="addMember" memthod="post" commandName="join">
 		<table>
 			<tr>
 				<td>이름</td>

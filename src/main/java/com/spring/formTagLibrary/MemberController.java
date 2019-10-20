@@ -30,8 +30,8 @@ public class MemberController {
 	@RequestMapping("/memInput")
 	public ModelAndView showMemInfo() {
 		
-		//command 라는 user객체를 만들어 form ID로 사용했다.
-		return new ModelAndView("memberInput", "command", new User());
+		//command("join") 라는 user객체를 만들어 form 태그 ID로 사용했다.
+		return new ModelAndView("memberInput", "join", new User());
 		
 	}
 	
